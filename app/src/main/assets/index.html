@@ -21,7 +21,7 @@
     </div>
     <div class="row">
         <div class="col">
-            <button type="button" class="btn btn-block">
+            <button type="button" onclick="reiniciar()"  class="btn btn-block">
                 REINICIAR
             </button>
         </div>
@@ -43,22 +43,19 @@
         </div>
     </div>
     <div class="row">
-        <div id="button5" onclick="acaoBotao(5)" class="col"><button type="button" class="btn btn-block btn-secondary btn-lg button-memory">5</button>
+        <div class="col">
+            <button id="button5" onclick="acaoBotao(5)" type="button" class="btn btn-block btn-dark btn-lg button-memory">5</button>
         </div>
-        <div id="button6" onclick="acaoBotao(6)" class="col"><button type="button" class="btn btn-lg btn-block btn-info button-memory">6</button>
+        <div class="col">
+            <button id="button6" onclick="acaoBotao(6)"  type="button" class="btn btn-lg btn-block btn-info button-memory">6</button>
         </div>
     </div>
     <div class="row">
-        <div class="col">
-            <div class="progress">
-                <div class="progress-bar w-75 progress-bar-striped progress-bar-animated">
-                </div>
-            </div>
+        <div class="progress">
+            <div id="progress-bar" class="progress-bar btn-dark" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
         </div>
     </div>
-
     <h3 class="text-center" id="counter">00:00:00</h3>
-
 </div>
 
 <script src="js/jquery.min.js"></script>
