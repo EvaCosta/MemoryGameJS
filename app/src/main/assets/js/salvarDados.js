@@ -7,8 +7,8 @@ function exibeInformacoes() {
     console.log("erros" + erros);
     console.log("cor" + cor);
 
-    document.getElementById('tempo').innerText = "Tempo decorrido: " + tempo + "s";
-    document.getElementById('erros').innerText = "Quantidade de Erros: " + erros;
+    document.getElementById('tempo').innerText = "Tempo: " + tempo + "s";
+    document.getElementById('erros').innerText = "Nº de erros: " + erros;
     $("body").css("background-color", cor);
 
 }
@@ -20,7 +20,7 @@ function salvarDadosJogador() {
     nome = $("#nome").val()
     if(nome != ''){
         $("#save").html("Salvo!");
-        $("#save").css("background-color", cor);
+        $("#save").css("background-color", "black");
         $("#save").prop("disabled", "true")
 
 
