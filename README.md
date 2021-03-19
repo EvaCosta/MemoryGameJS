@@ -50,9 +50,9 @@ Atividades desenvolvidas no curso de Tecnologia em Sistemas para Internet perten
 </a>
 
 ### Lista Ranking por Erros ou Tempo
-<a href="https://github.com/EvaCosta/MemoryGameJS/blob/main/Demo/exibir_ranking.gif">
+<a href="https://github.com/EvaCosta/MemoryGameJS/blob/main/Demo/exibe_ranking.gif">
   <div align="center">
-    <img src="https://github.com/EvaCosta/MemoryGameJS/blob/main/Demo/exibir_ranking.gif"  width="30%" height="30%">
+    <img src="https://github.com/EvaCosta/MemoryGameJS/blob/main/Demo/exibe_ranking.gif"  width="30%" height="30%">
   </div>
 </a>
 
