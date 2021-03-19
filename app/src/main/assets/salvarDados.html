@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Memory Game</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+</head>
+<body>
+<div class="container-fluid">
+    <div class="container-fluid">
+        <div class="row" id="titulo">
+            <div class="col">
+                <h3 class="text-center">
+                    Gravar Pontuação
+                </h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <h5 class="col text-left mb-3 mt-5"  id="erros"></h5>
+                <h5 class="col text-left" id="tempo"></h5>
+                    <div class="row">
+                        <input type="text" class="form-control mt-5" id="nome" placeholder="Nome:"/>
+                    </div>
+                    <button id="save" type="submit" class="btn btn-primary" onclick="salvarDadosJogador()">
+                        Salvar
+                    </button>
+            </div>
+        </div>
+        <div class="col text-center">
+            <button id="ranking_tempo" type="submit" class="btn btn-success mn-2"  onclick="telaRanking(1)">
+                Ranking Time
+            </button>
+
+            <button id="ranking_erros" type="submit" class="btn btn-success mb-0" onclick="telaRanking(2)">
+                Ranking Erros
+            </button>
+        </div>
+        <div class="col text-center">
+            <button id="jogar" type="submit" class="btn btn-warning mt-2" onclick="jogar()">
+                Restart
+            </button>
+        </div>
+
+    </div>
+</div>
+
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/salvarDados.js"></script>
+</body>
+</html>

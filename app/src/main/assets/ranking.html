@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Memory Game</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+</head>
+<body>
+<div class="container-fluid">
+    <div id="result"><ol></ol></div>
+    <div class="row">
+        <div class="col-md-12">
+            <table class="table table-sm table-hover table-bordered mt-5" id="time">
+
+            </table>
+        </div>
+    </div>
+
+
+    <div class="col text-center">
+        <button id="jogar" type="submit" class="btn btn-primary" onclick="window.location.href='index.html'">
+            Jogar
+        </button>
+        <button id="excluir" type="submit" class="btn btn-danger ml-2" onclick="limpar()">
+            Excluir registros
+        </button>
+
+        <div  id="ranking" class="col mt-3" > </div>
+    </div>
+</div>
+
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/ranking.js"></script>
+<script src="js/salvarDados.js"></script>
+</body>
+</html>

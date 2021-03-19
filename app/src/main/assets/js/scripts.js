@@ -3,6 +3,7 @@ var mm = 0;
 var ss = 0;
 
 var tempo = 1000;
+var tempoDecorrido;
 var cron;
 
 //Inicia o temporizador
@@ -50,6 +51,10 @@ function timer() {
 }
 window.onload=start;
 
+function converteTempoDecorrido(){
+    return ss + (mm * 60) + (hh * 3600);
+}
+
 //Gera um número aleatório
 function getRandom(min, max) {
     return Math.floor(Math.random() * (max - min + 1)) + min;
@@ -82,10 +87,7 @@ function acaoBotao(respostaBotao){
     if(respostaBotao == sequencia[posicao]){
         //console.log("res" + respostaBotao)
         isVisivel("#button"+respostaBotao, 0);
-
         alterarCorBackground("#button"+respostaBotao);
-
-        //progressBar.setProgress(posicao);
         posicao++;
         //console.log("porc" + calcularPorcentagem(posicao));
         barraProgresso(calcularPorcentagem(posicao));
@@ -97,11 +99,11 @@ function acaoBotao(respostaBotao){
     }
 
     if(posicao == 6){
+        //console.log("tempo decorrido" + tempoDecorrido);
         pause();
-
-        //bterNomeJogador();
-
+        infoPlayer("#button"+respostaBotao);
         contErrors = 0;
+
         //console.log("err" + contErrors)
     }
 }
@@ -124,7 +126,7 @@ function mostrarBotoes(){
 }
 
 function resetarJogo(){
-    barraProgresso(1);
+    barraProgresso(0);
     posicao=0;
     mostrarBotoes();
     alterarCorBackground(0);
@@ -140,19 +142,26 @@ function reiniciar(){
 }
 
 function barraProgresso(progresso){
+    $("#progress-bar").html(progresso/4 + "%");
     $("#progress-bar").css("width", progresso);
-    $("#progress-bar").html(progresso/4 + "%")
 }
 
 function calcularPorcentagem(posicao){
     return (posicao == 6) ? 400 : (102/6*posicao*4);
 }
 
-/*public void obterNomeJogador(){
-    Intent intent = new Intent(this, SalvarDadosActivity.class);
+function infoPlayer(id){
+    //console.log("tempo" + tempoDecorrido);
+    localStorage.setItem('time',  converteTempoDecorrido());
 
-    intent.putExtra("Duração", chronometer.getText());
-    intent.putExtra("Erros", String.format("%s",contErrors));
+    //console.log("erros" + contErrors);
+    localStorage.setItem('erros', contErrors);
 
-    startActivity(intent);
-}*/
+    //console.log("cor" + $(id).css('background-color'));
+    localStorage.setItem('color', $(id).css('background-color'))
+
+    setTimeout(function() {
+        window.open("salvarDados.html")
+    }, 500);
+
+}
