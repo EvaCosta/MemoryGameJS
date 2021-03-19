@@ -15,3 +15,43 @@ Atividades desenvolvidas no curso de Tecnologia em Sistemas para Internet perten
 ## Demonstração
 
 ### Sequência correta
+<a href="https://github.com/EvaCosta/MemoryGameJS/blob/main/Demo/.gif">
+  <div align="center">
+    <img src="https://github.com/EvaCosta/MemoryGameJS/blob/main/Demo/.gif"  width="30%" height="30%">
+  </div>
+</a>
+
+### Utilizando o botão para reiniciar
+<a href="https://github.com/EvaCosta/MemoryGameJS/blob/main/Demo/.gif">
+  <div align="center">
+    <img src="https://github.com/EvaCosta/MemoryGameJS/blob/main/Demo/.gif"  width="30%" height="30%">
+  </div>
+</a>
+
+### Sequência incorreta
+<a href="https://github.com/EvaCosta/MemoryGameJS/blob/main/Demo/.gif">
+  <div align="center">
+    <img src="https://github.com/EvaCosta/MemoryGameJS/blob/main/Demo/.gif"  width="30%" height="30%">
+  </div>
+</a>
+
+### Salvar Ranking
+<a href="https://github.com/EvaCosta/MemoryGameJS/blob/main/Demo/.gif">
+  <div align="center">
+    <img src="https://github.com/EvaCosta/MemoryGameJS/blob/main/Demo/.gif"  width="30%" height="30%">
+  </div>
+</a>
+
+### Lista Ranking por Tempo
+<a href="https://github.com/EvaCosta/MemoryGameJS/blob/main/Demo/.gif">
+  <div align="center">
+    <img src="https://github.com/EvaCosta/MemoryGameJS/blob/main/Demo/.gif"  width="30%" height="30%">
+  </div>
+</a>
+
+### Lista Ranking por Erros
+<a href="https://github.com/EvaCosta/MemoryGameJS/blob/main/Demo/.gif">
+  <div align="center">
+    <img src="https://github.com/EvaCosta/MemoryGameJS/blob/main/Demo/.gif"  width="30%" height="30%">
+  </div>
+</a>
