@@ -15,43 +15,50 @@ Atividades desenvolvidas no curso de Tecnologia em Sistemas para Internet perten
 ## Demonstração
 
 ### Sequência correta
-<a href="https://github.com/EvaCosta/MemoryGameJS/blob/main/Demo/.gif">
+<a href="https://github.com/EvaCosta/MemoryGameJS/blob/main/Demo/sequencia_correta.gif">
   <div align="center">
-    <img src="https://github.com/EvaCosta/MemoryGameJS/blob/main/Demo/.gif"  width="30%" height="30%">
+    <img src="https://github.com/EvaCosta/MemoryGameJS/blob/main/Demo/sequencia_correta.gif"  width="30%" height="30%">
   </div>
 </a>
 
 ### Utilizando o botão para reiniciar
-<a href="https://github.com/EvaCosta/MemoryGameJS/blob/main/Demo/.gif">
+<a href="https://github.com/EvaCosta/MemoryGameJS/blob/main/Demo/botao_reiniciar.gif">
   <div align="center">
-    <img src="https://github.com/EvaCosta/MemoryGameJS/blob/main/Demo/.gif"  width="30%" height="30%">
+    <img src="https://github.com/EvaCosta/MemoryGameJS/blob/main/Demo/botao_reiniciar.gif"  width="30%" height="30%">
   </div>
 </a>
 
 ### Sequência incorreta
-<a href="https://github.com/EvaCosta/MemoryGameJS/blob/main/Demo/.gif">
+<a href="https://github.com/EvaCosta/MemoryGameJS/blob/main/Demo/sequencia_errada.gif">
   <div align="center">
-    <img src="https://github.com/EvaCosta/MemoryGameJS/blob/main/Demo/.gif"  width="30%" height="30%">
+    <img src="https://github.com/EvaCosta/MemoryGameJS/blob/main/Demo/sequencia_errada.gif"  width="30%" height="30%">
   </div>
 </a>
 
 ### Salvar Ranking
-<a href="https://github.com/EvaCosta/MemoryGameJS/blob/main/Demo/.gif">
+<a href="https://github.com/EvaCosta/MemoryGameJS/blob/main/Demo/salvar_ranking.gif">
   <div align="center">
-    <img src="https://github.com/EvaCosta/MemoryGameJS/blob/main/Demo/.gif"  width="30%" height="30%">
+    <img src="https://github.com/EvaCosta/MemoryGameJS/blob/main/Demo/salvar_ranking.gif"  width="30%" height="30%">
   </div>
 </a>
 
-### Lista Ranking por Tempo
-<a href="https://github.com/EvaCosta/MemoryGameJS/blob/main/Demo/.gif">
+### Excluir Ranking
+<a href="https://github.com/EvaCosta/MemoryGameJS/blob/main/Demo/excluir_ranking.gif">
   <div align="center">
-    <img src="https://github.com/EvaCosta/MemoryGameJS/blob/main/Demo/.gif"  width="30%" height="30%">
+    <img src="https://github.com/EvaCosta/MemoryGameJS/blob/main/Demo/excluir_ranking.gif"  width="30%" height="30%">
   </div>
 </a>
 
-### Lista Ranking por Erros
-<a href="https://github.com/EvaCosta/MemoryGameJS/blob/main/Demo/.gif">
+### Lista Ranking por Erros ou Tempo
+<a href="https://github.com/EvaCosta/MemoryGameJS/blob/main/Demo/exibir_ranking.gif">
   <div align="center">
-    <img src="https://github.com/EvaCosta/MemoryGameJS/blob/main/Demo/.gif"  width="30%" height="30%">
+    <img src="https://github.com/EvaCosta/MemoryGameJS/blob/main/Demo/exibir_ranking.gif"  width="30%" height="30%">
+  </div>
+</a>
+
+### Funcionamento completo do jogo
+<a href="https://github.com/EvaCosta/MemoryGameJS/blob/main/Demo/jogo_completo.gif">
+  <div align="center">
+    <img src="https://github.com/EvaCosta/MemoryGameJS/blob/main/Demo/jogo_completo.gif"  width="30%" height="30%">
   </div>
 </a>
