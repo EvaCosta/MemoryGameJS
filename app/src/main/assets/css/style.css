@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+}
+
+#titulo{
+    margin-top: 15%;
+    margin-bottom: 10%;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.row{
+    text-align: center;
+    padding-left: 15%;
+    padding-right: 15%;
+    margin-bottom: 6%;
+}
+
+.button-memory{
+    height: 7rem;
+    color: black;
+}

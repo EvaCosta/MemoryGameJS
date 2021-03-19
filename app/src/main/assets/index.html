@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Memory Game</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+</head>
+<body>
+<div class="container-fluid">
+    <div class="row" id="titulo">
+        <div class="col">
+            <h3 class="text-center">
+                Memory Game JS
+            </h3>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <button type="button" class="btn btn-block">
+                REINICIAR
+            </button>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <button id="button1" onclick="acaoBotao(1)"  type="button" class="btn btn-lg btn-block btn-primary button-memory">1</button>
+        </div>
+        <div class="col">
+            <button id="button2" onclick="acaoBotao(2)" type="button" class="btn btn-danger btn-block btn-lg button-memory">2</button>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <button id="button3" onclick="acaoBotao(3)" type="button" class="btn btn-success btn-lg btn-block button-memory">3</button>
+        </div>
+        <div class="col">
+            <button id="button4" onclick="acaoBotao(4)" type="button" class="btn btn-warning btn-block btn-lg button-memory">4</button>
+        </div>
+    </div>
+    <div class="row">
+        <div id="button5" onclick="acaoBotao(5)" class="col"><button type="button" class="btn btn-block btn-secondary btn-lg button-memory">5</button>
+        </div>
+        <div id="button6" onclick="acaoBotao(6)" class="col"><button type="button" class="btn btn-lg btn-block btn-info button-memory">6</button>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <div class="progress">
+                <div class="progress-bar w-75 progress-bar-striped progress-bar-animated">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <h3 class="text-center" id="counter">00:00:00</h3>
+
+</div>
+
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/scripts.js"></script>
+</body>
+</html>
